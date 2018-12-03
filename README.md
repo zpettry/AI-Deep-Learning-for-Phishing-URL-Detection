@@ -11,11 +11,12 @@ Make sure to install all requirements:
 
     $ pip install -r requirements.txt
 
-Because of Github size limits, please download the model from here: https://www.zpettry.com/bi-lstmchar256256128.h5
-
+NOTICE : Because of Github size limits, please download the model from here: https://www.zpettry.com/bi-lstmchar256256128.h5
 
 Quick start
 -----------
+
+Ensure the model has been downloaded from the above link.
 
 Open a separate tab or window and run:
 
@@ -23,7 +24,7 @@ Open a separate tab or window and run:
 
 Now go back to the original tab or window and run:
 
-    $ python3 request.py -u http://www.google.com/about
+    $ python3 request.py -u https://www.google.com/about
 
     Output:
 
