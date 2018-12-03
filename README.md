@@ -1,6 +1,12 @@
 AI: Deep Learning for Phishing URL Detection
 =======================================
 
+Model Performance
+-----------
+![ROC/AUC Curve](https://www.zpettry.com/assets/roccurvezoomedin.JPG)
+![Confusion Matrix](https://www.zpettry.com/assets/confusionmatrix_normalized.JPG)
+![F1 Score](https://www.zpettry.com/assets/f1score.JPG)
+
 Requirements
 ------------
 
@@ -29,7 +35,6 @@ Now go back to the original tab or window and run:
     Output:
 
     $ [{'malicious percentage': 2.552182786166668, 'result': 'URL is probably NOT malicious.', 'url': 'https://www.google.com/about'}]
-
 
 Web site and documentation
 --------------------------
