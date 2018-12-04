@@ -10,7 +10,7 @@ def main(url):
         # Define URL for Flask API endpoint.
         KERAS_REST_API_URL = "http://127.0.0.1:45000/predict"
 
-        # Set the payload in JSON format.
+        # Set the payload to JSON format.
         payload = {"url": url}
 
         # Submit the POST request.
