@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This is the Flask REST API that processed and outputs the prediction on the URL.
+This is the Flask REST API that processes and outputs the prediction on the URL.
 """
 import numpy as np
 from keras.models import load_model
@@ -11,9 +11,8 @@ import label_data
 import flask
 import json
 
-# Initialize our Flask application and the Keras model
+# Initialize our Flask application and the Keras model.
 app = flask.Flask(__name__)
-
 
 global graph
 graph = tf.get_default_graph()
@@ -53,6 +52,7 @@ def predict():
 
     # Check if POST request.
     if flask.request.method == "POST":
+		
         # Grab and process the incoming json.
         incoming = flask.request.get_json()
         urlz = []
@@ -83,7 +83,7 @@ def predict():
         if "/" not in split2:
             result = "Base URLs cannot be accurately determined."
         
-	# Process prediction probability into something human-friendly.
+	# Processes prediction probability.
         prediction = float(prediction)
         prediction = prediction * 100
         
