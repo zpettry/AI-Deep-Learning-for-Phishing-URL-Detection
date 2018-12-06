@@ -3,9 +3,9 @@ AI: Deep Learning for Phishing URL Detection
 
 Model Performance
 -----------
-![ROC/AUC Curve](https://www.pettry.com/assets/roccurvezoomedin.JPG)
-![Confusion Matrix](https://www.pettry.com/assets/confusionmatrix_normalized.JPG)
-![F1 Score](https://www.pettry.com/assets/f1score.JPG)
+![ROC/AUC Curve](https://www.zpettry.com/assets/roccurvezoomedin.JPG)
+![Confusion Matrix](https://www.zpettry.com/assets/confusionmatrix_normalized.JPG)
+![F1 Score](https://www.zpettry.com/assets/f1score.JPG)
 
 Requirements
 ------------
